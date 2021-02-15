@@ -83,7 +83,7 @@ function App() {
             <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
             <TodoList filteredTodos={filteredTodos} setTodos={setTodos} todos={todos} /> 
             <div className="align-logout ">
-            <button onClick={Logout} class="Logout">Logout</button>
+            <button onClick={Logout} className="Logout">Logout</button>
             </div>
         </div>
         ):(
